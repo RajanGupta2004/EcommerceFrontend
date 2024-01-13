@@ -1,0 +1,70 @@
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf0f1;
+    height: 200px;
+}
+
+.container{
+    /* height: 500px; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.filter-section{
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.filter-section h4{
+    margin-top: 10px;
+}
+
+.card-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  
+}
+
+
+.all-card-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+   
+}
+
+
+.company-filter{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 10px;
+
+    height: 200px;
+}
+
+.company-filter label{
+    font-size: 23px;
+    font-weight: bold;
+    margin:10px;
+    
+ 
+}
+
+
+
+

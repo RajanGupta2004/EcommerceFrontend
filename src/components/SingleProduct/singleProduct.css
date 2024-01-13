@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.row{
+    width: 70%;
+}
+
+
+
+.col img{
+     width: 400px; 
+    height: 400px; 
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+
+.productName{
+    letter-spacing: 2px;
+}
+
+.producttitle{
+    color: blue;
+    font-size: 20px;
+}
+.rating i{
+    color: orange;
+}
+
+.btn-group{
+    border: 1px solid grey;
+    margin-left: 10px;
+}
+
+.Quantity{
+    display: flex;
+}
+
+.cart-btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.BuyNow-btn{
+    margin-right: 20px;
+}

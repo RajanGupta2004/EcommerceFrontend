@@ -1,0 +1,6 @@
+.myheader{
+    top: 0px;
+    position: sticky;
+    z-index: 1001;
+    width: 100%;
+}

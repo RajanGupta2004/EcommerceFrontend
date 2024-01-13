@@ -1,0 +1,18 @@
+.my-card{
+    padding: 10px;
+    margin: 10px 15px
+}
+
+.priceandCart{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.priceandCart p {
+    /* font-size: 23px; */
+    font-weight: 500;
+
+}
+

@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.navbar{
+    /* line-height: 25px; */
+    border-bottom: 0.5px solid grey;
+   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.active{
+    border-bottom: 2px solid black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-brand{
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.App-link {
-  color: #61dafb;
+/* ===============page not found============ */
+
+.pageNotfound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error{
+    font-size: 70px;
+    font-weight: 600;
 }
+/* ===============page not found============ */
+
+/* =============register page========== */
+
+.registerPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.form{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 400px;
+
+
+}
+/* =============register page========== */

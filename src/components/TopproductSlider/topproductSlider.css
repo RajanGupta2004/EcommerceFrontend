@@ -1,0 +1,29 @@
+/* .productCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    border: 2px solid red;
+    width: 100%;
+    flex-direction: column;
+} */
+
+.card-img-top{
+    height: 150px;
+    width: 100%;
+}
+
+.react-multi-carousel-track li {
+    width: 250px !important;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .card{
+    box-shadow: 2px 1px #888888;
+} */
